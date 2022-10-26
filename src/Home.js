@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link,Outlet} from 'react-router-dom'
 
 import img2 from "./img2.svg"
 import img3 from "./img3.svg"
@@ -40,20 +39,11 @@ import "./index.css"
 
     <div>
     <img  className='img1' src={img7} alt="image" />
-    <p> The listed Users of the account can send emails to eachother </p>
+    <p> The listed Users of the account can send one another </p>
     </div>
 
    </div>
-   <nav >
-            <ul>
-            <li> <Link to="/about">About</Link>
-            
-            </li>
-            <li> <Link to="/contact">Contact</Link></li>
-        
-            </ul>
-        </nav>
-        <Outlet />
+   
    </>
   )
 }
