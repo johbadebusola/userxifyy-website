@@ -23,8 +23,8 @@ const User = () => {
                 setData(result.results)
             })
             .catch((error) => {
-                setLoading(false)
-                setError("No internet connection")
+                setLoading(true)
+                setError(<h4 className="error-connection"> No internet connection </h4>)
             }
             )
     }, [])

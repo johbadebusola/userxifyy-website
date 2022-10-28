@@ -145,6 +145,25 @@ margin: auto;
   justify-content: center;
   
 }
+
+.error-connection{
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ min-height: 80vh;
+}
+
+/* nexted routes */
+.nested > ul {
+list-style: none;
+}
+
+.nested > ul > li a{
+  color: black;
+  font-weight: 700;
+}
+
 @media (min-width:600px) {
   .user-container {
     display: grid;
